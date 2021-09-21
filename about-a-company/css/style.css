@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/about-a-company/images/nav-bg.png);
+}
+.container2{
+    margin-top: 40px;
+   margin-left: 30px;
+}
+.container
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.list{
+    list-style: none;
+    text-align: center;
+    padding-top: 30px;
+}
+.item{
+  display: inline-block;
+}
+.item:not(:last-child){
+    margin-right: 30px;
+}
+.link{
+    font-size: 20px;
+    color: #ffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.link:hover{
+    color: #ffff;
+    text-decoration: none;
+}
+.images img{
+    width: 300px;
+    height: 250px;
+}
+
+.box{
+    flex: 0 0 auto;
+    width: 25%;
+}
+.box_images img{
+ width: 100%;
+ height: 250px;
+}
+.box_images{
+    margin-bottom: 10px;
+}
+.box-para{
+    font-size: 16px;
+    color: #000;
+    line-height: 25px;
+}
+.box-head{
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    height: 60px;
+    background-color: rosybrown;
+}
+.contentf{
+    text-align: center;
+}
+.contentf p{
+    padding: 20px 0;
+}
+.footer2{
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    height: 60px;
+    background-color: rosybrown;
+}
