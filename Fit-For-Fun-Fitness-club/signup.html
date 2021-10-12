@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="/Fit-For-Fun-Fitness-club/css/style.css">
 </head>
-<!-- September 29, 2021-->
 <body>
     <ul class="list">
         <li class="item"><a href="index.html" class="link" >Home</a></li>
@@ -17,33 +16,36 @@
     </ul>
     <br><br>
     <div class="container2">
+        <h1>Creat new account</h1>
         <form action="thankyou.html">
             <div>
-                <label for="fname">First name:</label><br>
+                <label for="fname">First name: <span>*</span>  </label><br>
                 <input class="king" type="text" id="fname" name="fname" placeholder="First Name" required> <br> <br>
             </div>
             <div>
-                <label for="lname">Last name:</label><br>
+                <label for="lname">Last name: <span>*</span> </label><br>
                 <input class="king"type="text" id="lname" name="lname" placeholder="Last Name" required><br><br>
             </div>
+             <div class="checkbox">
+                 <input id="newsletter" type="checkbox" name="newsletter" value="yes">
+                 <label for="newsletter"> Sign up for the newsletter</label>
+             </div>
+             <br>
             <div>
-                <label for="country">Location</label><br>
-                <div class="select-wrapper">
-                    <select  name="select" id="counrty">
-                        <option value="St.Louis">St.Louis</option>
-                        <option value="Chicago">Chicago</option>
-                        <option value="Los Angeles">Los Angeles</option>
-                        <option value="New York">New York</option>
-                    </select>
-                </div>
+                <label for="email">Email: <span>*</span> </label> <br>
+                <input class="king" id="email" type="email" name="email" required>
             </div>
+            <br>
             <div>
+                <label for="password">Password: <span>*</span> </label> <br>
+                <input class="king" id="password" type="password" name="password" required>
+            </div>
                 <br>
-                <label for="message">Message:</label> <br>
-                <textarea id="message" rows="5" cols="20" placeholder="Enter message" required></textarea> <br> <br>
-                <input class="button" type="submit" value="Submit">
+            <div>
+                <input class="button" type="submit" value="New account">
             </div>
         </form>
+        
     </div>
     <div class="footer">
         <div class="container4">
