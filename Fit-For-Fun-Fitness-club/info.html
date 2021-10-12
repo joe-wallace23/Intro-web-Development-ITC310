@@ -17,23 +17,40 @@
     </ul>
     <br><br>
     <div class="container2">
-        <form action="thankyou.html">
+        <form action="thankyou.html" method="GET" target="_blank">
             <div>
                 <label for="fname">First name:</label><br>
-                <input class="king" type="text" id="fname" name="fname" placeholder="First Name" required> <br> <br>
+                <input class="king" type="text" id="fname" name="firstName" placeholder="First Name" required> <br> <br>
             </div>
             <div>
                 <label for="lname">Last name:</label><br>
-                <input class="king"type="text" id="lname" name="lname" placeholder="Last Name" required><br><br>
+                <input class="king"type="text" id="lastName" name="lname" placeholder="Last Name" required><br><br>
             </div>
             <div>
-                <label for="country">Location</label><br>
+                <label for="lname">Email:</label><br>
+                <input class="king"type="email" id="email" name="email" placeholder="Email" required><br><br>
+            </div>
+            <div>
+                <label for="lname">Email:</label><br>
+                <input class="king"type="text" id="phone" name="ohone" placeholder="Enter Phone number" required><br><br>
+            </div>
+            <div>
+                <label for="country">Classes you are interested in:</label><br>
                 <div class="select-wrapper">
-                    <select  name="select" id="counrty">
-                        <option value="St.Louis">St.Louis</option>
-                        <option value="Chicago">Chicago</option>
-                        <option value="Los Angeles">Los Angeles</option>
-                        <option value="New York">New York</option>
+                    <select  name="select" id="contact">
+                        <option value="Running class">Running class</option>
+                        <option value="football class">Football class</option>
+                        <option value="baseball class">Baseball class</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <label for="country">Classes you are interested in:</label><br>
+                <div class="select-wrapper">
+                    <select  name="select" id="time">
+                        <option value="Running class 1:00pm CT">Running class 1:00pm CT</option>
+                        <option value="football class 2:00pm CT">Football class 2:00pm CT</option>
+                        <option value="baseball class 5:00pm CT">Baseball class 5:00pm CT</option>
                     </select>
                 </div>
             </div>
@@ -53,4 +70,5 @@
         </div>
     </div>
 </body>
+<script src="fun.js"></script>
 </html>
