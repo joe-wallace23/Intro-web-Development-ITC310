@@ -5,64 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <!-- September 29, 2021-->
 <body>
     <ul class="list">
-        <li class="item"><a href="index.html" class="link" >Home</a></li>
-        <li class="item"><a href="classes.html" class="link" >Classes</a></li>
-        <li class="item"><a href="info.html" class="link" >Info</a></li>
-        <li class="item"><a href="signup.html" class="link" >Sign up</a></li>
+        <li class="item"><a href="./index.html" class="link" >Home</a></li>
+        <li class="item"><a href="./classes.html" class="link" >Classes</a></li>
+        <li class="item"><a href="./info.html" class="link" >Info</a></li>
+        <li class="item"><a href="./signup.html" class="link" >Sign up</a></li>
     </ul>
     <br><br>
     <div class="container2">
-        <form action="thankyou.html" method="GET" target="_blank">
+        <form action="./thankyou.html" method="GET" target="_blank">
             <div>
                 <label for="fname">First name:</label><br>
-                <input class="king" type="text" id="fname" name="firstName" placeholder="First Name" required> <br> <br>
+                <input class="king" type="text" id="firstname" name="firstname" placeholder="First Name" required> <br> <br>
             </div>
             <div>
                 <label for="lname">Last name:</label><br>
-                <input class="king"type="text" id="lastName" name="lname" placeholder="Last Name" required><br><br>
+                <input class="king"type="text" id="lastName" name="lastname" placeholder="Last Name" required><br><br>
             </div>
             <div>
                 <label for="lname">Email:</label><br>
                 <input class="king"type="email" id="email" name="email" placeholder="Email" required><br><br>
             </div>
             <div>
-                <label for="lname">Email:</label><br>
-                <input class="king"type="text" id="phone" name="ohone" placeholder="Enter Phone number" required><br><br>
+                <label for="lname">Phone Number</label><br>
+                <input class="king"type="text" id="phone" name="phone" placeholder="Enter Phone number" required><br><br>
             </div>
             <div>
+                <label for="lname">Best way to reach me are: </label><br>
+                <input class="king"type="text" id="contact" name="contact" placeholder="Enter contact" required><br><br>
+            </div>
+            <br><br><br>
+            <div>
                 <label for="country">Classes you are interested in:</label><br>
+                <input class="king"type="text" id="classes" name="classes" placeholder="Enter Classes" required><br><br>
                 <div class="select-wrapper">
-                    <select  name="select" id="contact">
-                        <option value="Running class">Running class</option>
-                        <option value="football class">Football class</option>
-                        <option value="baseball class">Baseball class</option>
-                    </select>
+                    <ul>
+                        <li>
+                            Running class
+                        </li>
+                        <li>
+                            Football class
+                        </li>
+                        <li>
+                            Baseball class
+                        </li>
+
+                    </ul>
                 </div>
             </div>
+            <br><br>
             <div>
                 <label for="country">Classes you are interested in:</label><br>
+                <input class="king"type="text" id="time" name="time" placeholder="Enter time" required><br><br>
                 <div class="select-wrapper">
-                    <select  name="select" id="time">
-                        <option value="Running class 1:00pm CT">Running class 1:00pm CT</option>
-                        <option value="football class 2:00pm CT">Football class 2:00pm CT</option>
-                        <option value="baseball class 5:00pm CT">Baseball class 5:00pm CT</option>
-                    </select>
+                    <ul>
+                        <li>
+                            Running class 1:00pm CT
+                        </li>
+                        <li>
+                            Football class 2:00pm CT
+                        </li>
+                        <li>
+                            Baseball class 5:00pm CT
+                        </li>
+
+                    </ul>
                 </div>
             </div>
             <div>
                 <br>
-                <label for="message">Message:</label> <br>
-                <textarea id="message" rows="5" cols="20" placeholder="Enter message" required></textarea> <br> <br>
                 <input class="button" type="submit" value="Submit">
             </div>
         </form>
     </div>
-    <div class="footer">
+ 
+    <div class="footer2">
         <div class="container4">
             <p class="para">
                 Joseph Wallace &copy; September 29, 2021
@@ -70,5 +91,5 @@
         </div>
     </div>
 </body>
-<script src="fun.js"></script>
+<script src="./fun.js"></script>
 </html>
