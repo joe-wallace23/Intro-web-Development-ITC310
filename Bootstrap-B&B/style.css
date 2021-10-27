@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*::before,
+::after{
+  box-sizing: initial;  
+}
+body{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 10/16 0.625 or 62.5%*/
+}
+.navbar{
+    background-color: #fff !important;
+      border-bottom: .3rem solid #a2d9ce ;
+      box-shadow: 1px 10px 38px -14px rgba(0,0,0,0.75);
+      -webkit-box-shadow: 1px 10px 38px -14px rgba(0,0,0,0.75);
+      -moz-box-shadow: 1px 10px 38px -14px rgba(0,0,0,0.75);
+}
+.navbar-brand img{
+    width: 9rem;
+    height: 8rem;
+}
+.nav-link{
+    font-size: 1.1rem;
+    color: #000 !important;
+}
+/* header section */
+.kove{
+    margin: 3rem 2rem 4rem;
+}
+.kove__content .just p.para{
+    font-size: 1.2rem;
+    color: #6d6d6d;
+    line-height: 1.7rem;
+}
+.kove__content .just{
+    margin-top: 1rem;
+}
+.kove__space{
+    margin-bottom: 2rem;
+}
+.button{
+    margin-top: 3rem;
+}
+.button .list{
+    list-style: none;
+}
+.button .list .item{
+    display: inline-block;
+}
+.button .list .item:not(:last-child){
+    margin-right: 1rem;
+}
+.button .list .item .link{
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+    background-color:#a2d9ce ;
+    padding: 1rem 1.5rem;
+}
+.button .list .item .link:hover{
+    color: #000;
+    text-decoration: none;
+    background-color:#a2d9ce ;
+}
+.carousel-item img{
+    height: 30rem;
+}
+.carousel-caption p{
+    font-size: 1rem;
+}
+/* header end section*/
+
+/* box section */
+.box{
+    margin: 6rem 1rem 5rem;
+}
+.card-img img{
+    width: 100%;
+    height: 15rem;
+}
+.card .card-headert h2.title{
+    font-size: 1.4rem;
+    color: #000;
+}
+.card .content p.para{
+    font-size: 1rem;
+    color: #6d6d6d;
+}
+.card .button{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.card .button .link{
+    font-size: 1rem;
+    color: #000 ;
+    text-decoration: none;
+    background-color: #a2d9ce;
+    padding: 1rem 1.5rem;
+}
+.card .button .link:hover{
+    color: #000 ;
+    text-decoration: none;
+    background-color: #a2d9ce;
+}
+.box__space{
+    margin-bottom: 2rem;
+}
+/* end box section */
+
+/* amenities section */
+.amenities{
+    margin: 2rem 0 5rem;
+    padding: 4rem 0;
+    background-image: url(./images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.amenities__content .men h2.title{
+    font-size: 2rem;
+    color: #000;
+    text-transform: capitalize;
+    display: inline-block;
+    border-bottom: .2rem solid #000;
+}
+.amenities__content .list{
+   list-style: none;
+}
+.amenities__content .list .item:not(:last-child){
+    margin-bottom: .5rem;
+ }
+ .amenities__content .list .item .link{
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+ }
+ .amenities__content .list .item .link:hover{
+    color: #000;
+    text-decoration: none;
+ }
+/* end amenities section */
+
+/* footer */
+.bottom{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: grey;
+  padding: 1.5rem .2rem .3rem;
+}
+.bottom .content p.para{
+    font-size: 1rem;
+    color: #000;
+}
+/* end footer */
+
+
+/* contact */
+.contact{
+    margin: 5rem 2rem;
+}
+.contact__content h1.title{
+  font-size: 3rem;
+  color: #000;
+  border-bottom: .2rem solid #000;
+  display: inline-block;
+}
+.book{
+    margin-bottom: 8rem;
+}
+.book .book__space{
+    margin-bottom: 2rem;
+}
+.book .book__inputs{
+    margin-bottom: .5rem;
+}
+.book .book__content .info p.para{
+    font-size: 1rem;
+    color: #000;
+}
+.book__content iframe{
+    width: 100%;
+    height: 22rem;
+}
+.book .book__content .input-group .form-control[type="text"]{
+    outline: 0;
+    box-shadow: none !important;
+    border: .2rem solid #a2d9ce;
+}
+.book .book__content .rates{
+  font-size: 1rem;
+  color: #000;
+  border: none;
+  padding: 1rem 1.5rem;
+  background-color: #a2d9ce;
+}
+/* end contact */
