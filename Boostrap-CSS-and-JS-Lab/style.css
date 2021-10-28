@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*::before,
+*::after{
+    box-sizing: initial;
+}
+body{
+    box-sizing: content-box;
+    font-size: 62.5%; /* 10/16 =  62.5% 0.625 or */
+    background-color: #eeee;
+}
+.container{
+    background-color: #fff;
+    margin-top: 24px;
+}
+.heading{
+    box-shadow: 5px 5px 25px grey;
+    padding: 25px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
