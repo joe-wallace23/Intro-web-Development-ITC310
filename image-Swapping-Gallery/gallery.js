@@ -15,11 +15,6 @@ function imgClick(e){
     // Change your images
     current.src= e.target.src;
 
-    //add class
-    current.classList.add('fade-in');
-
-    // Remove class
-    setTimeout(() => current.classList.remove('fade-in'), 300)
 
     // make the image lighter
     e.target.style.opacity = opacity
