@@ -1,6 +1,6 @@
 let cars = document.querySelector(".carsTwo")
 
-function time (e){
+function time (){
     
 }
 

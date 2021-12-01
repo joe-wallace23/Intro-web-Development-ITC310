@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*::before,
+::after{
+   box-sizing: inherit;
+}
+body{
+    box-sizing: content-box;
+    background-image: url(./images/BG-racing-track.jpg);
+    background-repeat: no-repeat;
+    
+}
+.start {
+    margin: 4rem 2rem;
+}
+.start img{
+    width: 9rem;
+    height: 5rem;
+}
+.cars__small{
+    margin-bottom: 3rem;
+}
+.cars img{
+    width: 100%;
+    height: 9rem;
+}
